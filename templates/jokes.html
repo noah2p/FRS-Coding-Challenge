@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> Dad Jokes </title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Dad Jokes</h1>
+    <div class="simple-container">{{ joke }}</div>
+    <div class="simple-container">
+        <a class="button" href="/jokes"> Another Joke? </a>
+    </div>
+{% endblock %}
